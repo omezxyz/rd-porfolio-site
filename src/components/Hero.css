@@ -1,0 +1,52 @@
+/* On-load Animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* Background Illustrative Icons */
+  .bg-icons {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    opacity: 0.2;
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  
+  .bg-icons::before,
+  .bg-icons::after,
+  .bg-icons div {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #e3e3e3, #f9f9f9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  .bg-icons div:nth-child(odd) {
+    background: linear-gradient(to bottom, #d3d3d3, #f0f0f0);
+    animation-delay: 0.3s;
+  }
+  
