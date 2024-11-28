@@ -136,13 +136,13 @@ const Hero = () => {
         {/* Main Content for Mobile */}
         <div className="relative z-10 text-center animate-fadeIn flex flex-col justify-center items-center h-full px-6 md:hidden mt-[-5%]">
         <h1 className="text-3xl font-extrabold mb-6">
-          <span className="text-red-600">
+        <span style={{ color: helloColor }}>
             <Typewriter words={["Hello"]} loop={false} cursor={false} typeSpeed={120} />
           </span>
           , <span className="text-white">I'm</span>{" "}
           <span className="text-black">RD RAVA</span>
         </h1>
-        <p className="text-sm text-white-500 mb-8 mt-[-5%]">
+        <p className="text-l text-white mb-8 mt-[-5%]">
           Illustrator | Designer | Graffiti
         </p>
         <button
@@ -162,7 +162,7 @@ const Hero = () => {
           , <span className="text-white">I'm</span>{" "}
           <span className="text-white">RD RAVA</span>
         </h1>
-        <p className="text-lg text-white-500 mb-8">
+        <p className="text-xl text-white mb-8">
           Illustrator | Designer | Graffiti
         </p>
         <button

@@ -1,6 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-User-agent: *
-Allow: /
-Sitemap: https://rdravaart.com/sitemap.xml
+ 
