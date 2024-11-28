@@ -10,7 +10,7 @@ const PortfolioPreview = () => {
     { id: 3, title: "Illustrating the World of Designers and Visual Artists", image: "/images/project-1/1.webp" },
     { id: 4, title: "Brand illustrations for IFP writing challenge page", image: "/images/project-3/2.jpeg" },
     { id: 5, title: "The Shutter’s Voice", image: "/images/project-4/1.webp" },
-    { id: 6, title: "A Visual Tribute to Performing Arts", image: "/images/project-6/1.webp" },
+    { id: 6, title: "A Visual Tribute to Performing Arts", image: "/images/project-5/1.png" },
     { id: 7, title: "Symphony in Motion", image: "/images/project-6/1.webp" },
     { id: 8, title: "Illustration banner for IFP Fimmaking page", image: "/images/project-7/1.png" },
     { id: 9, title: "Psychedelic Assemblance", image: "/images/project-8/1.jpg" },

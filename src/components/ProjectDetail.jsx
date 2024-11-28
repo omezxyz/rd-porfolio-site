@@ -9,25 +9,30 @@ const ProjectDetail = ({ projectId, onClose }) => {
       description: "IFP Festival Brand Identity",
       rows: [
         {
-          description: "Master Design For Festival Season 14 - Horizontal View This design embodies the spirit of IFP, celebrating the diversity and creativity of the vibrant community that gathers at the festival—a dynamic blend of culture x creativity.",
+          description: "",
           images: [
             { src: "/images/project-2/1.webp" }],
           layout: "grid-cols-1 gap-1",
         },
         {
-          description: "Master Design For Festival Season 14 - Vertical View",
+          description: "Master Design For Festival Season 14 - Horizontal View This design embodies the spirit of IFP, celebrating the diversity and creativity of the vibrant community that gathers at the festival—a dynamic blend of culture x creativity.",
           images: [
               { src: "/images/project-2/2.webp"} ],
           layout: "grid-cols-1 gap-1",
         },
+        {
+          description: "Master Design For Festival Season 14 - Vertical View",
+          images: [  { src:"/images/project-2/3.webp"} ],
+          layout: "grid-cols-1 gap-1",
+        },
      
         {
-          description: "Ideation Phase for the designs",
+          description: "",
           images: [  { src:"/images/project-2/4.webp"} ],
           layout: "grid-cols-1 gap-1",
         },
         {
-          description: "USAGE OF MASTER DESIGNS: 1. Speaker Announcement Creatives" ,
+          description: "Ideation Phase for the designs" ,
           images: [
             { src: "/images/project-2/5.webp"},
               { src: "/images/project-2/6.webp"},
@@ -37,7 +42,7 @@ const ProjectDetail = ({ projectId, onClose }) => {
           layout: "grid-cols-2 gap-1",
         },
         {
-          description: "2. Festival Line Ups and Stalls announcement Post creatives",
+          description: "USAGE OF MASTER DESIGNS: 1. Speaker Announcement Creatives",
           images: [
             { src: "/images/project-2/9.webp"},
               { src: "/images/project-2/10.webp"},
@@ -49,7 +54,7 @@ const ProjectDetail = ({ projectId, onClose }) => {
         },
  
         {
-          description: "3. Festival Schedule Design",
+          description: "2. Festival Line Ups and Stalls announcement Post creatives",
           images: [
             { src:  "/images/project-2/14.webp"},
               { src: "/images/project-2/15.webp"},
@@ -918,7 +923,7 @@ const ProjectDetail = ({ projectId, onClose }) => {
             &times;
           </button>
           <h2 className="text-3xl font-bold text-center mb-2">{project.title}</h2>
-          <p className="text-lg text-gray-600 text-center">{project.description}</p>
+          <p className="text-xl text-gray-600 text-center">{project.description}</p>
         </div>
 
         {/* Scrollable Content */}
@@ -926,7 +931,7 @@ const ProjectDetail = ({ projectId, onClose }) => {
           {project.rows.map((row, rowIndex) => (
             <div key={rowIndex} className={`grid ${row.layout} mb-6`}>
               {row.description && (
-                <div className="col-span-full text-center text-lg text-gray-500">{row.description}</div>
+                <div className="col-span-full text-center text-sm text-gray-500">{row.description}</div>
               )}
               {row.images.map((image, imageIndex) => (
                 <div key={imageIndex} className="relative flex justify-center items-center">
