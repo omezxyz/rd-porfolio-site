@@ -15,7 +15,7 @@ const About = () => {
 visual design generalist.
 I bring my imagination to life through illustrations,
 digital art, and fine art. I'm deeply fascinated by the
-endless creative possibilities that design offers
+endless creative possibilities that design offers.
         </p>
       </div>
     </section>

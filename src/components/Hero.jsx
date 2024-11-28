@@ -140,7 +140,7 @@ const Hero = () => {
             <Typewriter words={["Hello"]} loop={false} cursor={false} typeSpeed={120} />
           </span>
           , <span className="text-white">I'm</span>{" "}
-          <span className="text-black">RD RAVA</span>
+          <span className="text-white">RD RAVA</span>
         </h1>
         <p className="text-l text-white mb-8 mt-[-5%]">
           Illustrator | Designer | Graffiti
