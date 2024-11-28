@@ -120,7 +120,7 @@ const ProjectDetail = ({ projectId, onClose }) => {
     "2": {
       title: "IFP Festival S14 On-ground Design",
 
-      description: "My contribution to this project was to create designs for the following walls and stages according to the dimensions given.",
+      description: " ",
       rows: [
         {
           description: " ",

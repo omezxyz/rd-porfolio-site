@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import ProjectDetail from "./components/ProjectDetail"; // You will create this component for project details
 
 const App = () => {
+  
   return (
     <Router>
       <div className="font-sans">
