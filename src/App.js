@@ -23,8 +23,8 @@ const AppContent = () => {
   return (
     <div className="font-sans">
       {/* Disable right-click and shortcuts */}
+    
       <DisableActions />
-
       {/* Define Routes */}
       <Routes>
         <Route path="/shop" element={<Shop />} />

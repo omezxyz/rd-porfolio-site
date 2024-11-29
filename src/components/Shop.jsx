@@ -8,22 +8,24 @@ const Shop = () => {
     { id: 1, title: "Digital Illustration #1", price: "$50", image: "/path/to/image1.jpg" },
     { id: 2, title: "Digital Illustration #2", price: "$70", image: "/path/to/image2.jpg" },
     { id: 3, title: "Limited Edition Print", price: "$100", image: "/path/to/image3.jpg" },
-    { id: 4, title: "Digital Illustration #1", price: "$50", image: "/path/to/image1.jpg" },
-    { id: 5, title: "Digital Illustration #2", price: "$70", image: "/path/to/image2.jpg" },
-    { id: 6, title: "Limited Edition Print", price: "$100", image: "/path/to/image3.jpg" },
+ ,
     // Add more product data as needed
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 relative">
+<div className="min-h-screen flex flex-col bg-gray-50 relative">
       <ShopNavbar /> {/* Custom Navbar for Shop Page */}
 
       {/* Transparent Overlay - "Work in Progress" Message */}
-      <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center z-10">
-        <h1 className="text-5xl font-extrabold text-white">Work in Progress</h1>
-        <p className="text-xl text-white mt-4">Our shop is currently being curated. Stay tuned for amazing art pieces!</p>
+      <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center z-10 px-6 md:px-12">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white text-center">
+          Work in Progress
+        </h1>
+        <p className="text-lg md:text-xl text-white text-center">
+          Our shop is currently being curated. Stay tuned for amazing art pieces!
+        </p>
       </div>
-
+    
       {/* Shop Hero Section */}
       <section className="bg-cover bg-center h-96 relative" style={{ backgroundImage: "url('/path/to/hero-image.jpg')" }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>

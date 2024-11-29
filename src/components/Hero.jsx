@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showResume, setShowResume] = useState(false);
@@ -52,7 +52,7 @@ const Hero = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-20 bg-white bg-opacity-100 backdrop-blur-md">
         <div className="container mx-auto flex justify-between items-center px-6 py-2">
-          <h1 className="text-xl md:text-3xl font-bold text-red-600">rd_rava.art</h1>
+        <Link to="/" className="text-xl md:text-3xl font-bold text-red-600">rd_rava.art</Link>
           <ul className="hidden md:flex  space-x-6 text-lg">
           <li>
             <a
@@ -108,7 +108,7 @@ const Hero = () => {
 
       {/* Mobile Fullscreen Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 bg-white bg-opacity-90 z-40 flex flex-col justify-center items-center space-y-8 text-lg">
+        <div className="fixed inset-0 bg-white bg-opacity-90 z-40 flex flex-col justify-center items-center  space-y-4 text-xl">
                <a
       href="/shop"
       className="text-gray-700 hover:text-red-600 transition duration-300"

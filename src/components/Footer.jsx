@@ -24,7 +24,7 @@ const Footer = () => {
     </a>
       </div>
       
-      <div  className="flex justify-center text-sm font-bold mt-8 space-x-4"><a href="https://www.linkedin.com/in/omesh-rabha-414569259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Developed By Omesh Rabha</a>  </div>
+      <p  className="flex justify-center text-l  mt-6 space-x-4"><a href="https://www.linkedin.com/in/omesh-rabha-414569259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Developed By Omesh Rabha</a>  </p>
       
     </footer>
   );
