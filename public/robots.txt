@@ -1,6 +1,15 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /portfolio/
+Allow: /shop/
+Allow: /hire-me/
+Allow: /about/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /*?sort=
+Disallow: /*?filter=
 
 Sitemap: https://www.rdravaart.com/sitemap.xml
 

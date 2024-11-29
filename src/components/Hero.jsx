@@ -51,17 +51,18 @@ const Hero = () => {
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-20 bg-white bg-opacity-100 backdrop-blur-md">
-        <div className="container mx-auto flex justify-between items-center px-6 py-4">
+        <div className="container mx-auto flex justify-between items-center px-6 py-2">
           <h1 className="text-xl md:text-3xl font-bold text-red-600">rd_rava.art</h1>
-          <ul className="hidden md:flex space-x-8 text-lg">
-            <li>
-              <button
-                onClick={() => scrollToSection("about")}
-                className="text-gray-700 hover:text-red-600 transition duration-300"
-              >
-                About Me
-              </button>
-            </li>
+          <ul className="hidden md:flex  space-x-6 text-lg">
+          <li>
+            <a
+              href="/shop"
+                  className="text-gray-700 hover:text-red-600 transition duration-300"
+               >
+             Shop
+              </a>
+             </li>
+         
             <li>
               <button
                 onClick={() => scrollToSection("portfolio")}
@@ -75,7 +76,15 @@ const Hero = () => {
                 onClick={() => scrollToSection("hire-me")}
                 className="text-gray-700 hover:text-red-600 transition duration-300"
               >
-                Hire Me
+                Hire me
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => scrollToSection("about")}
+                className="text-gray-700 hover:text-red-600 transition duration-300"
+              >
+                Me
               </button>
             </li>
             <li>
@@ -100,12 +109,13 @@ const Hero = () => {
       {/* Mobile Fullscreen Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-white bg-opacity-90 z-40 flex flex-col justify-center items-center space-y-8 text-lg">
-          <button
-            onClick={() => scrollToSection("about")}
-            className="text-gray-700 hover:text-red-600 transition duration-300"
-          >
-            About Me
-          </button>
+               <a
+      href="/shop"
+      className="text-gray-700 hover:text-red-600 transition duration-300"
+           >
+        Shop
+         </a>
+         
           <button
             onClick={() => scrollToSection("portfolio")}
             className="text-gray-700 hover:text-red-600 transition duration-300"
@@ -116,7 +126,13 @@ const Hero = () => {
             onClick={() => scrollToSection("hire-me")}
             className="text-gray-700 hover:text-red-600 transition duration-300"
           >
-            Hire Me
+            Hire me
+          </button>
+          <button
+            onClick={() => scrollToSection("about")}
+            className="text-gray-700 hover:text-red-600 transition duration-300"
+          >
+            Me
           </button>
           <button
             onClick={toggleResume}

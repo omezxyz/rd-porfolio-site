@@ -9,13 +9,13 @@ const About = () => {
           alt="[Profile]"
           className="w-32 h-32 rounded-full mx-auto mb-6"
         />
-        <h2 className="text-3xl font-bold mb-4">About Me</h2>
-        <p className="text-lg">
+        <h2 className="text-2xl font-bold mb-4">Ramdhan Rabha</h2>
+        <p className="text-l">
         Hi! I'm Ramdhan aka RD Rava, an illustrator and
-visual design generalist.
-I bring my imagination to life through illustrations,
-digital art, and fine art. I'm deeply fascinated by the
-endless creative possibilities that design offers.
+        visual design generalist.
+        I bring my imagination to life through illustrations,
+        digital art, and fine art. I'm deeply fascinated by the
+        endless creative possibilities that design offers.
         </p>
       </div>
     </section>

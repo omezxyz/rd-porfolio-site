@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faInstagram, faLinkedin, faBehance } from "@fortawesome/free-brands-svg-icons";
+import { faMicrophoneLines, faMobilePhone, faPhone, faPhoneAlt, faPhoneSlash, faPhoneSquare, faPhoneSquareAlt, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faPhoenixFramework } from "@fortawesome/free-brands-svg-icons/faPhoenixFramework";
 
 const Footer = () => {
   return (
@@ -17,8 +19,12 @@ const Footer = () => {
         <a href="https://www.behance.net/rd_rava" className="hover:text-indigo-500">
           <FontAwesomeIcon icon={faBehance} size="2x" />
         </a>
+        <a href="tel:+918638736894" className="hover:text-indigo-500">
+      <FontAwesomeIcon icon={faPhoneSquare} size="2x" />
+    </a>
       </div>
-      <div  className="flex justify-center mt-6 space-x-6"><a href="https://www.linkedin.com/in/omesh-rabha-414569259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Developed By Omesh Rabha</a>  </div>
+      
+      <div  className="flex justify-center text-sm font-bold mt-8 space-x-4"><a href="https://www.linkedin.com/in/omesh-rabha-414569259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Developed By Omesh Rabha</a>  </div>
       
     </footer>
   );
